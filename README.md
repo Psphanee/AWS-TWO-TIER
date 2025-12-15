@@ -1,6 +1,7 @@
 # AWS-TWO-TIER
 
 Two-Tier Highly Available AWS Architecture using Terraform & GitHub Actions
+
 📌 Project Overview
 
 This project provisions a highly available two-tier architecture in AWS using Terraform and GitHub Actions.
