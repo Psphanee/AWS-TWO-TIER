@@ -23,6 +23,9 @@ jobs:
         with:
           terraform_version: 1.6.6
 
+      - name: Who am I (Debug AWS Identity)
+        run: aws sts get-caller-identity
+
       - name: Terraform Init
         run: terraform init -reconfigure
 
